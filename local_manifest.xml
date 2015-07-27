@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<project path="device/htc/mystul" name="CMyst/android_device_htc_mystul" revision="cm-11.0" />
+<project path="kernel/htc/msm8960" name="CMyst/android_kernel_htc_msm8960" revision="cm-11.0" />
+<project path="vendor/htc" name="CMyst/proprietary_vendor_htc" revision="cm-11.0" />
+
+</manifest>
