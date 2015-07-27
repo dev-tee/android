@@ -13,7 +13,7 @@ To sync source:
 To build:
 
     source build/envsetup.sh
-    lunch
-    mka bacon
+    lunch cm_mystul-userdebug
+    mka
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
