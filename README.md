@@ -1,7 +1,5 @@
 # CM for HTC Myst
 
-WARNING: KERNEL BOOTS, but kernel panic.  Still not useable yet.
-
 To init this repo:
 
     repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
