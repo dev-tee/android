@@ -1,6 +1,6 @@
 # CM for HTC Myst
 
-WARNING: KERNEL DOES NOT BOOT YET.
+WARNING: KERNEL BOOTS, but kernel panic.  Still not useable yet.
 
 To init this repo:
 
