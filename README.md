@@ -1,4 +1,7 @@
 # CM for HTC Myst
+Status:
+- Recovery works
+- Rom does not boot.  I2C write error with tfa9887 driver
 
 To init this repo:
 
