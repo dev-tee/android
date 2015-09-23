@@ -1,7 +1,6 @@
 # CM for HTC Myst
 Status:
-- Recovery works
-- Rom does not boot.  I2C write error with tfa9887 driver
+- Rom boots, but lag because of error with dsi_esc_clk in mipi panel
 
 To init this repo:
 
