@@ -1,6 +1,4 @@
 # CM for HTC Myst
-Status:
-- Rom boots, but lag because of error with dsi_esc_clk in mipi panel
 
 To init this repo:
 
