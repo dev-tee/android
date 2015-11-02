@@ -1,4 +1,7 @@
 # CM for HTC Myst
+What doesn't work:
+-Camera
+-NFC?
 
 To init this repo:
 
