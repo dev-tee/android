@@ -1,7 +1,7 @@
 # CM for HTC Myst
 What doesn't work:
 -Camera
--NFC?
+-NFC? dma timeout for mdp (graphics glitch in recovery offmode charging animation), possibly caused by dsi_esc_clk and dsi_byte_clk clocks stuck at "on".  Need to do further debugging.
 
 To init this repo:
 
