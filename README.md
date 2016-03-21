@@ -1,7 +1,15 @@
 # CM for HTC Myst
+What works:
+- Triple Buffering
+- Calls Ingoing/Outgoing
+- Gps
+- etc
+
 What doesn't work:
--Camera
--NFC? dma timeout for mdp (graphics glitch in recovery offmode charging animation), possibly caused by dsi_esc_clk and dsi_byte_clk clocks stuck at "on".  Need to do further debugging.
+-Speaker DSP is broken.  The init sequences required to turn the tfa9887 dsp on is different than the open source hal drivers.  Need to do further debugging.
+- Graphics glitch on right edge of photos taken from camera
+- Microphone for camcorder doesn't work
+- etc?
 
 To init this repo:
 
