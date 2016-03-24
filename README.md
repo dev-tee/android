@@ -2,14 +2,17 @@
 What works:
 - Triple Buffering
 - Calls Ingoing/Outgoing
+- USB Tethering/Wi-fi Hotspot :) 
+- NFC
 - Gps
+- Camera/Camcorder/Panorama
 - etc
 
 What doesn't work:
--Speaker DSP is broken.  The init sequences required to turn the tfa9887 dsp on is different than the open source hal drivers.  Need to do further debugging.
-- Graphics glitch on right edge of photos taken from camera
-- Microphone for camcorder doesn't work
-- etc?
+- Speaker DSP is broken.  The init sequences required to turn the tfa9887 dsp on is different than the open source hal drivers.  Need to do further debugging. (NOT HIGH PRIORITY)
+- ???
+
+For all bugs, please open a new issue on github with a logcat and/or dmesg of your issue.
 
 To init this repo:
 
