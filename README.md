@@ -1,24 +1,28 @@
-# CM for HTC Myst
+# Lineage for HTC Myst
+
+Experimental check-in.
+Some files might still need to be organized correctly.
+(See [OPA device tree](https://github.com/dev-tee/android_device_htc_opa)).
+
 What works:
-- Triple Buffering
-- Calls Ingoing/Outgoing
-- USB Tethering/Wi-fi Hotspot :) 
+- WiFi
+- Bluetooth
 - NFC
-- Gps
-- Camera/Camcorder/Panorama
-- etc
 
 What doesn't work:
-- Speaker DSP is broken.  The init sequences required to turn the tfa9887 dsp on is different than the open source hal drivers.  Need to do further debugging. (NOT HIGH PRIORITY)
-- ???
+- SIM Detection/Cellular Network
+- Sound (New HAL required)
+- Camera
+- more...
 
 For all bugs, please open a new issue on github with a logcat and/or dmesg of your issue.
+Additionally if you happen to know how to fix it, shoot me a message or pull request.
 
 To init this repo:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+    repo init -u https://github.com/LineageOS/android.git -b cm-14.1
     mkdir -p .repo/local_manifests
-    wget https://github.com/CMyst/android/raw/cm-11.0/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
+    wget https://github.com/dev-tee/android/raw/port/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
 
 To sync source:
 
@@ -26,7 +30,7 @@ To sync source:
 
 To build:
 
-    . build/envsetup.sh && lunch cm_mystul-userdebug
+    . build/envsetup.sh && lunch lineage_mystul-userdebug
     mka
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+Please see the [LineageOS Wiki](https://wiki.lineageos.org/devices/) for building instructions.
