@@ -22,7 +22,7 @@ To init this repo:
 
     repo init -u https://github.com/LineageOS/android.git -b cm-14.1
     mkdir -p .repo/local_manifests
-    wget https://github.com/dev-tee/android/raw/port/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
+    wget https://raw.githubusercontent.com/dev-tee/android/port/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
 
 To sync source:
 
